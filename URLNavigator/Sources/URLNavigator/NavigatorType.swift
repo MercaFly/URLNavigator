@@ -1,9 +1,5 @@
-#if os(iOS) || os(tvOS)
-import UIKit
 
-#if !COCOAPODS
-import URLMatcher
-#endif
+import UIKit
 
 public typealias URLPattern = String
 public typealias ViewControllerFactory = (_ url: URLConvertible, _ values: [String: Any], _ context: Any?) -> UIViewController?
@@ -160,4 +156,3 @@ extension NavigatorType {
     return self.openURL(url, context: context)
   }
 }
-#endif

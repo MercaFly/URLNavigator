@@ -1,9 +1,5 @@
-#if os(iOS) || os(tvOS)
-import UIKit
 
-#if !COCOAPODS
-import URLMatcher
-#endif
+import UIKit
 
 open class Navigator: NavigatorType {
   open let matcher = URLMatcher()
@@ -38,4 +34,3 @@ open class Navigator: NavigatorType {
     return { handler(url, match.values, context) }
   }
 }
-#endif
