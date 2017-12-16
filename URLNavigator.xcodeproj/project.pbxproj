@@ -7,33 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB7C07E81FE4CEB000836C08 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C07E21FE4CEAF00836C08 /* Navigation.swift */; };
+		EB7C07E91FE4CEB000836C08 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C07E31FE4CEAF00836C08 /* UIViewController+TopMostViewController.swift */; };
+		EB7C07EA1FE4CEB000836C08 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C07E41FE4CEAF00836C08 /* URLConvertible.swift */; };
+		EB7C07EB1FE4CEB000836C08 /* URLMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C07E51FE4CEAF00836C08 /* URLMatcher.swift */; };
+		EB7C07EC1FE4CEB000836C08 /* URLNavigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C07E61FE4CEAF00836C08 /* URLNavigable.swift */; };
+		EB7C07ED1FE4CEB000836C08 /* URLNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C07E71FE4CEAF00836C08 /* URLNavigator.swift */; };
 		EB960E261FE4237700AF725D /* URLNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = EB960E241FE4237700AF725D /* URLNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB960E501FE42A8500AF725D /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E451FE42A8500AF725D /* URLConvertible.swift */; };
-		EB960E511FE42A8500AF725D /* URLMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E461FE42A8500AF725D /* URLMatcher.swift */; };
-		EB960E521FE42A8500AF725D /* URLMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E471FE42A8500AF725D /* URLMatchResult.swift */; };
-		EB960E531FE42A8500AF725D /* URLPatchComponentMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E481FE42A8500AF725D /* URLPatchComponentMatchResult.swift */; };
-		EB960E541FE42A8500AF725D /* URLPathComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E491FE42A8500AF725D /* URLPathComponent.swift */; };
-		EB960E551FE42A8500AF725D /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E4B1FE42A8500AF725D /* Navigator.swift */; };
-		EB960E561FE42A8500AF725D /* NavigatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E4C1FE42A8500AF725D /* NavigatorDelegate.swift */; };
-		EB960E571FE42A8500AF725D /* NavigatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E4D1FE42A8500AF725D /* NavigatorType.swift */; };
-		EB960E581FE42A8500AF725D /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E4E1FE42A8500AF725D /* UIViewController+TopMostViewController.swift */; };
-		EB960E591FE42A8500AF725D /* UIViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960E4F1FE42A8500AF725D /* UIViewControllerType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB7C07E21FE4CEAF00836C08 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		EB7C07E31FE4CEAF00836C08 /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
+		EB7C07E41FE4CEAF00836C08 /* URLConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
+		EB7C07E51FE4CEAF00836C08 /* URLMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLMatcher.swift; sourceTree = "<group>"; };
+		EB7C07E61FE4CEAF00836C08 /* URLNavigable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLNavigable.swift; sourceTree = "<group>"; };
+		EB7C07E71FE4CEAF00836C08 /* URLNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLNavigator.swift; sourceTree = "<group>"; };
 		EB960E211FE4237700AF725D /* URLNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB960E241FE4237700AF725D /* URLNavigator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLNavigator.h; sourceTree = "<group>"; };
 		EB960E251FE4237700AF725D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB960E451FE42A8500AF725D /* URLConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
-		EB960E461FE42A8500AF725D /* URLMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLMatcher.swift; sourceTree = "<group>"; };
-		EB960E471FE42A8500AF725D /* URLMatchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLMatchResult.swift; sourceTree = "<group>"; };
-		EB960E481FE42A8500AF725D /* URLPatchComponentMatchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLPatchComponentMatchResult.swift; sourceTree = "<group>"; };
-		EB960E491FE42A8500AF725D /* URLPathComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLPathComponent.swift; sourceTree = "<group>"; };
-		EB960E4B1FE42A8500AF725D /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		EB960E4C1FE42A8500AF725D /* NavigatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatorDelegate.swift; sourceTree = "<group>"; };
-		EB960E4D1FE42A8500AF725D /* NavigatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatorType.swift; sourceTree = "<group>"; };
-		EB960E4E1FE42A8500AF725D /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
-		EB960E4F1FE42A8500AF725D /* UIViewControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB7C07E11FE4CEAF00836C08 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C07E21FE4CEAF00836C08 /* Navigation.swift */,
+				EB7C07E31FE4CEAF00836C08 /* UIViewController+TopMostViewController.swift */,
+				EB7C07E41FE4CEAF00836C08 /* URLConvertible.swift */,
+				EB7C07E51FE4CEAF00836C08 /* URLMatcher.swift */,
+				EB7C07E61FE4CEAF00836C08 /* URLNavigable.swift */,
+				EB7C07E71FE4CEAF00836C08 /* URLNavigator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		EB960E171FE4237700AF725D = {
 			isa = PBXGroup;
 			children = (
@@ -66,42 +71,9 @@
 		EB960E231FE4237700AF725D /* URLNavigator */ = {
 			isa = PBXGroup;
 			children = (
-				EB960E431FE42A8500AF725D /* Sources */,
+				EB7C07E11FE4CEAF00836C08 /* Sources */,
 				EB960E241FE4237700AF725D /* URLNavigator.h */,
 				EB960E251FE4237700AF725D /* Info.plist */,
-			);
-			path = URLNavigator;
-			sourceTree = "<group>";
-		};
-		EB960E431FE42A8500AF725D /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				EB960E441FE42A8500AF725D /* URLMatcher */,
-				EB960E4A1FE42A8500AF725D /* URLNavigator */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		EB960E441FE42A8500AF725D /* URLMatcher */ = {
-			isa = PBXGroup;
-			children = (
-				EB960E451FE42A8500AF725D /* URLConvertible.swift */,
-				EB960E461FE42A8500AF725D /* URLMatcher.swift */,
-				EB960E471FE42A8500AF725D /* URLMatchResult.swift */,
-				EB960E481FE42A8500AF725D /* URLPatchComponentMatchResult.swift */,
-				EB960E491FE42A8500AF725D /* URLPathComponent.swift */,
-			);
-			path = URLMatcher;
-			sourceTree = "<group>";
-		};
-		EB960E4A1FE42A8500AF725D /* URLNavigator */ = {
-			isa = PBXGroup;
-			children = (
-				EB960E4B1FE42A8500AF725D /* Navigator.swift */,
-				EB960E4C1FE42A8500AF725D /* NavigatorDelegate.swift */,
-				EB960E4D1FE42A8500AF725D /* NavigatorType.swift */,
-				EB960E4E1FE42A8500AF725D /* UIViewController+TopMostViewController.swift */,
-				EB960E4F1FE42A8500AF725D /* UIViewControllerType.swift */,
 			);
 			path = URLNavigator;
 			sourceTree = "<group>";
@@ -185,16 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB960E511FE42A8500AF725D /* URLMatcher.swift in Sources */,
-				EB960E541FE42A8500AF725D /* URLPathComponent.swift in Sources */,
-				EB960E521FE42A8500AF725D /* URLMatchResult.swift in Sources */,
-				EB960E571FE42A8500AF725D /* NavigatorType.swift in Sources */,
-				EB960E591FE42A8500AF725D /* UIViewControllerType.swift in Sources */,
-				EB960E501FE42A8500AF725D /* URLConvertible.swift in Sources */,
-				EB960E531FE42A8500AF725D /* URLPatchComponentMatchResult.swift in Sources */,
-				EB960E561FE42A8500AF725D /* NavigatorDelegate.swift in Sources */,
-				EB960E581FE42A8500AF725D /* UIViewController+TopMostViewController.swift in Sources */,
-				EB960E551FE42A8500AF725D /* Navigator.swift in Sources */,
+				EB7C07E91FE4CEB000836C08 /* UIViewController+TopMostViewController.swift in Sources */,
+				EB7C07ED1FE4CEB000836C08 /* URLNavigator.swift in Sources */,
+				EB7C07EA1FE4CEB000836C08 /* URLConvertible.swift in Sources */,
+				EB7C07EC1FE4CEB000836C08 /* URLNavigable.swift in Sources */,
+				EB7C07EB1FE4CEB000836C08 /* URLMatcher.swift in Sources */,
+				EB7C07E81FE4CEB000836C08 /* Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
